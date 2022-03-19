@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(241, 241, 241);
+    overflow-x: hidden;
+    position: relative;
+    
+}
+nav{
+    background-color: rgb(1, 202, 238);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px 0px 200px;
+}
+ul li{
+    list-style-type: none;
+    float: left;
+    padding:10px;
+}
+li a{
+    font-size: 15px;
+    color: white;
+}
+li:hover a{
+    color:black
+}
+nav button{
+    padding: 5px 30px 5px 30px;
+    border: 1px solid grey;
+    background-color: red;
+    margin: 1px;
+    color: white;
+    cursor: pointer;
+}
+nav button:hover{
+    color: black;
+}
+
+
+
+
+
+.bgColorShed{
+    height: 270px;
+    background-image: linear-gradient(black,rgb(1, 1, 77)) ;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+
+section{
+   
+    margin: 0px 200px 0px 200px;
+    box-shadow: 0px 2px 4px 0px black;
+    background-color: white;
+
+}
+.sectionHead{
+    padding: 150px 0px 0px 0px;
+    background-image: url('https://images.pexels.com/photos/589840/pexels-photo-589840.jpeg?cs=srgb&dl=pexels-valiphotos-589840.jpg&fm=jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2px;
+    margin-top: 0;
+}
+.sectionHead h1{
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(56, 2, 92);
+}
+.dateAndt p{
+    
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    padding: 0px 40px 0px 40px;
+    font-weight: 600;
+    
+}
+.dateAndt{
+    display: flex;
+    justify-content: center;
+}
+.preAcc p{
+    
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.formFil{
+    display: flex;
+}
+.formSizing,.lastP{
+    display: flex;
+    justify-content: center;
+}
+.formSizing .InnerDivForm{
+    width: 50%;
+}
+input, select{
+    margin: 4px;
+    padding: 10px 8px 8px 8px;
+    border: 2px solid rgb(3, 114, 179);
+    width: 100%;
+}
+form h4{
+    color: rgb(3, 114, 179);
+    text-align: center;
+}
+.formFilCheck{
+    display: flex;
+    margin-top: 10px;
+}
+.formFilCheck input{
+    font-size: 30px;
+    width: unset;
+    padding: 10px;
+}
+.arttitl{
+    color: rgb(3, 114, 179);
+    font-size: 16px;
+    font-weight: bold;
+}
+.formFilCheck label{
+    color: rgb(3, 114, 179);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.informati{
+    padding: 0px 40px 0px 40px;
+}
+.artt{
+    color: rgb(107, 107, 107);
+    text-align: justify;
+}
+.subButton{
+    padding: 10px 100px 10px 100px;
+    background-color: rgb(3, 114, 179);
+    color: white;
+    cursor: pointer;
+}
+.menuBar{
+    font-size: 45px;
+    display: none;
+}
+
+
+
+@media only screen and (min-width:200px) and (max-width:992px)  {
+
+    section {
+        margin: 0px 10px 0px 10px;
+    }
+    .sectionHead h1 {
+        font-size: 45px;
+    }
+    .dateAndt p ,.preAcc p{
+        font-size: 25px;
+    }
+    .formSizing .InnerDivForm {
+        width: 90%;
+    }
+    nav {
+        
+        padding: 0px 10px 0px 10px;
+      }
+      ul {
+        display: none;
+      }
+    nav button {
+        display: none; 
+    }
+    .menuBar{
+        display: block;
+        font-size: 45px;
+        cursor: pointer;
+    }
+    .mobileMenu{
+        display: block !important;
+    }
+    .mobileMenu li{
+        list-style-type: none;
+        float: none;
+        padding: 10px;
+        
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
